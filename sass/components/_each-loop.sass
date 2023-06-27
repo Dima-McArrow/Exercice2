@@ -1,0 +1,24 @@
+$sizes: 30px, 40px, 50px, 30px
+
+$types: ("error": red, "success": green, "warning": orange, "neutral": grey)
+
+.each-loop
+  @each $className, $color in $types
+    .#{$className}
+      color: $color
+  @each $size in $sizes
+    ._#{$size}
+      font-size: $size
+
+
+
+/* 
+  .error
+    color: red
+
+  .success
+    color: green
+
+  .warning
+    color: orange
+ */

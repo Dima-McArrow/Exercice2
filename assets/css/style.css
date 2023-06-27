@@ -1,9 +1,72 @@
+.conditions {
+  background: grey;
+}
+.conditions .circle {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.conditions .circle img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.conditions .square {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 0;
+}
+.conditions .square img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.each-loop .error {
+  color: red;
+}
+.each-loop .success {
+  color: green;
+}
+.each-loop .warning {
+  color: orange;
+}
+.each-loop .neutral {
+  color: grey;
+}
+.each-loop ._30px {
+  font-size: 30px;
+}
+.each-loop ._40px {
+  font-size: 40px;
+}
+.each-loop ._50px {
+  font-size: 50px;
+}
+.each-loop ._30px {
+  font-size: 30px;
+}
+
+/* .error
+ *  color: red
+ *
+ * .success
+ *  color: green
+ *
+ * .warning
+ *  color: orange
+ * */
 .for-loop {
   background-color: tomato;
 }
 .for-loop div:nth-child(1) {
   margin-left: 20px;
   background-color: #cccc00;
+  color: #333333;
 }
 .for-loop div:nth-child(1)::before {
   content: "1";
@@ -12,6 +75,7 @@
 .for-loop div:nth-child(2) {
   margin-left: 40px;
   background-color: #999900;
+  color: #666666;
 }
 .for-loop div:nth-child(2)::before {
   content: "2";
@@ -20,6 +84,7 @@
 .for-loop div:nth-child(3) {
   margin-left: 60px;
   background-color: #666600;
+  color: #999999;
 }
 .for-loop div:nth-child(3)::before {
   content: "3";
@@ -28,9 +93,19 @@
 .for-loop div:nth-child(4) {
   margin-left: 80px;
   background-color: #333300;
+  color: #cccccc;
 }
 .for-loop div:nth-child(4)::before {
   content: "4";
+  margin-right: 20px;
+}
+.for-loop div:nth-child(5) {
+  margin-left: 100px;
+  background-color: black;
+  color: white;
+}
+.for-loop div:nth-child(5)::before {
+  content: "5";
   margin-right: 20px;
 }
 

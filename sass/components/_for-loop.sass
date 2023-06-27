@@ -1,10 +1,11 @@
 .for-loop
   background-color: tomato
 
-  @for $i from 1 through 4
+  @for $i from 1 through 5
     div:nth-child(#{$i})
       margin-left: #{$i * 20}px
       background-color: darken(yellow, $i * 10%)
+      color: lighten(black, $i * 20%)
       &::before
         content: "#{$i}"
         margin-right: 20px
