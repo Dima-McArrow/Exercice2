@@ -1,3 +1,7 @@
+.conditions {
+  background: black;
+}
+
 .each-loop .error {
   color: red;
 }
