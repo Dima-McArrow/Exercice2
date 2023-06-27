@@ -4,7 +4,7 @@
 .for-loop div:nth-child(1) {
   margin-left: 20px;
   background-color: #cccc00;
-  color: #9a9a9a;
+  color: #333333;
 }
 .for-loop div:nth-child(1)::before {
   content: "1";
@@ -13,7 +13,7 @@
 .for-loop div:nth-child(2) {
   margin-left: 40px;
   background-color: #999900;
-  color: #b3b3b3;
+  color: #666666;
 }
 .for-loop div:nth-child(2)::before {
   content: "2";
@@ -22,7 +22,7 @@
 .for-loop div:nth-child(3) {
   margin-left: 60px;
   background-color: #666600;
-  color: #cdcdcd;
+  color: #999999;
 }
 .for-loop div:nth-child(3)::before {
   content: "3";
@@ -31,7 +31,7 @@
 .for-loop div:nth-child(4) {
   margin-left: 80px;
   background-color: #333300;
-  color: #e6e6e6;
+  color: #cccccc;
 }
 .for-loop div:nth-child(4)::before {
   content: "4";
