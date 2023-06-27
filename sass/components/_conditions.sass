@@ -1,2 +1,10 @@
+@use "../utils/_mixins" as mixin
+
 .conditions
-  background: black
+  background: grey
+
+  .circle
+    @include mixin.avatar($circle: true)
+  
+  .square
+    @include mixin.avatar($circle: false)

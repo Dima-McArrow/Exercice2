@@ -1,5 +1,29 @@
 .conditions {
-  background: black;
+  background: grey;
+}
+.conditions .circle {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100%;
+}
+.conditions .circle img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.conditions .square {
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 0;
+}
+.conditions .square img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .each-loop .error {
