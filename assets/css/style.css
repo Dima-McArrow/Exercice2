@@ -1,3 +1,37 @@
+.each-loop .error {
+  color: red;
+}
+.each-loop .success {
+  color: green;
+}
+.each-loop .warning {
+  color: orange;
+}
+.each-loop .neutral {
+  color: grey;
+}
+.each-loop ._30px {
+  font-size: 30px;
+}
+.each-loop ._40px {
+  font-size: 40px;
+}
+.each-loop ._50px {
+  font-size: 50px;
+}
+.each-loop ._30px {
+  font-size: 30px;
+}
+
+/* .error
+ *  color: red
+ *
+ * .success
+ *  color: green
+ *
+ * .warning
+ *  color: orange
+ * */
 .for-loop {
   background-color: tomato;
 }
