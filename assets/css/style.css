@@ -1,0 +1,46 @@
+.for-loop {
+  background-color: tomato;
+}
+.for-loop div:nth-child(1) {
+  margin-left: 20px;
+  background-color: #cccc00;
+}
+.for-loop div:nth-child(1)::before {
+  content: "1";
+  margin-right: 20px;
+}
+.for-loop div:nth-child(2) {
+  margin-left: 40px;
+  background-color: #999900;
+}
+.for-loop div:nth-child(2)::before {
+  content: "2";
+  margin-right: 20px;
+}
+.for-loop div:nth-child(3) {
+  margin-left: 60px;
+  background-color: #666600;
+}
+.for-loop div:nth-child(3)::before {
+  content: "3";
+  margin-right: 20px;
+}
+.for-loop div:nth-child(4) {
+  margin-left: 80px;
+  background-color: #333300;
+}
+.for-loop div:nth-child(4)::before {
+  content: "4";
+  margin-right: 20px;
+}
+
+/* div:nth-child(1)
+ *  margin-left: 20px
+ *
+ * div:nth-child(2)
+ *  margin-left: 40px
+ * div:nth-child(3)
+ *  margin-left: 60px
+ * div:nth-child(4)
+ *  margin-left: 80px
+ * *//*# sourceMappingURL=style.css.map */

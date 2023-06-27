@@ -1,0 +1,27 @@
+.for-loop
+  background-color: tomato
+
+  @for $i from 1 through 4
+    div:nth-child(#{$i})
+      margin-left: #{$i * 20}px
+      background-color: darken(yellow, $i * 10%)
+      &::before
+        content: "#{$i}"
+        margin-right: 20px
+
+/*   
+  div:nth-child(1)
+    margin-left: 20px
+
+  div:nth-child(2)
+    margin-left: 40px
+  
+  div:nth-child(3)
+    margin-left: 60px
+  
+  div:nth-child(4)
+    margin-left: 80px
+ */
+    
+
+    
